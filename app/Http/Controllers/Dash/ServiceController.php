@@ -77,7 +77,7 @@ class ServiceController extends Controller
                 $file = $request->file('image');
                 $path = 'storage/images/services/' . date('Y') . '/' . date('m') . '/';
                 $name = $path . time() . '-' . $file->getClientOriginalName();
-                $file->move($path, $name);
+                $file -> move($path, $name);
                 $data['image'] = $name;
             }
             $service->update($data);
