@@ -65,7 +65,7 @@ class AppCatController extends Controller
             $cat->update($data);
             return response()->json([
                 'success' => true,
-                'msg' => 'article has been updated successfully'
+                'msg' => 'Category has been updated successfully'
             ], 200);
         } else {
             return response()->json([
@@ -82,7 +82,7 @@ class AppCatController extends Controller
             $cat->delete();
             return response()->json([
                 'success' => true,
-                'msg' => 'article has been deleted successfully'
+                'msg' => 'Category has been deleted successfully'
             ], 200);
         } else {
             return response()->json([
