@@ -43,7 +43,7 @@ class ProductController extends Controller
         Product::create($data);
         return response()->json([
             'success' => true,
-            'msg' => 'product has been addedd successfully'
+            'msg' => 'product has been added successfully'
         ], 200);
     }
 
