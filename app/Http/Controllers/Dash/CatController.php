@@ -65,7 +65,7 @@ class CatController extends Controller
             $cat->update($data);
             return response()->json([
                 'success' => true,
-                'msg' => 'article has been updated successfully'
+                'msg' => 'Cat has been updated successfully'
             ], 200);
         } else {
             return response()->json([
