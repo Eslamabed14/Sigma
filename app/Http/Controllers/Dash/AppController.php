@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Dash;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\AppResource;
 use App\Models\App;
-use App\Models\AppCat;
 use Illuminate\Http\Request;
 
 class AppController extends Controller
