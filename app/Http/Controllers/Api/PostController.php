@@ -52,6 +52,6 @@ class PostController extends Controller
         return response()->json([
             'success' => true,
             'message' => 'your order has been sent successfully!'
-        ], 200);
+        ] , 200);
     }
 }
