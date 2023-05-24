@@ -26,7 +26,6 @@ use App\Models\Partner;
 use App\Models\Product;
 use App\Models\Service;
 use App\Models\Team;
-use Illuminate\Http\Request;
 
 class GetController extends Controller
 {
